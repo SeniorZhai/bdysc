@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffe6e6e6"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/sliding_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffe6e6e6"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="42sp"
+            android:background="#EA524A"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/news_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="分类目录"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/food_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dp"
+            android:layout_marginRight="10.0dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/yunx_mainlayout_select_style"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="食品饮料、酒水"
+                android:textColor="#ff3f3f3f" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/item_info_body_left_arrow" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/clean_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dp"
+            android:layout_marginRight="10.0dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/yunx_mainlayout_select_style"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="厨卫清洁、纸、清洁剂"
+                android:textColor="#ff3f3f3f" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/item_info_body_left_arrow" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/day_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dp"
+            android:layout_marginRight="10.0dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/yunx_mainlayout_select_style"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/day_layout_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="日用家居、锅具餐具"
+                android:textColor="#ff3f3f3f" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/item_info_body_left_arrow" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/mother_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dp"
+            android:layout_marginRight="10.0dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/yunx_mainlayout_select_style"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="母婴用品、玩具"
+                android:textColor="#ff3f3f3f" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/item_info_body_left_arrow" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/beauty_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dp"
+            android:layout_marginRight="10.0dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/yunx_mainlayout_select_style"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="美容化妆、个人护理"
+                android:textColor="#ff3f3f3f" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/item_info_body_left_arrow" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/life_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dp"
+            android:layout_marginRight="10.0dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/yunx_mainlayout_select_style"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="生活电器、办公文娱"
+                android:textColor="#ff3f3f3f" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/item_info_body_left_arrow" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/service_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dp"
+            android:layout_marginRight="10.0dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/yunx_mainlayout_select_style"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="生活服务、礼品专区"
+                android:textColor="#ff3f3f3f" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/item_info_body_left_arrow" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

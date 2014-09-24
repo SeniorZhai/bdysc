@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity" 
+    android:orientation="vertical"
+    >
+   <fragment 
+       android:id="@+id/fragment_home"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:layout_weight="1"
+       class="com.baida.fragment.HomeFragment"
+       />
+    <fragment 
+       android:id="@+id/fragment_buy"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:layout_weight="1"
+       class="com.baida.fragment.TieshiFragment"
+       />
+     <fragment 
+       android:id="@+id/fragment_shopping"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:layout_weight="1"
+       class="com.baida.fragment.ShoppingFragment"
+       />
+      <fragment 
+       android:id="@+id/fragment_user"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:layout_weight="1"
+       class="com.baida.fragment.UserFragment"
+       />
+ 
+     
+     <com.baida.fragment.FragmentIndicator
+         android:id="@+id/indicator"
+         android:layout_width="fill_parent"
+         android:layout_height="48dp"
+         android:background="#ffffff" />
+
+</LinearLayout>
+

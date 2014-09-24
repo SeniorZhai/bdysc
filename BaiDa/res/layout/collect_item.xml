@@ -1,0 +1,53 @@
+<!-- 列表展示界面 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp" >
+
+        <ImageView
+            android:id="@+id/collect_item_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="2.5dp" />
+
+        <TextView
+            android:id="@+id/collect_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/collect_item_image"
+            android:text="宣酒"
+            android:textColor="#5C0B07"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/collect_item_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/collect_item_name"
+            android:layout_below="@+id/collect_item_name"
+            android:text="1290元"
+            android:textColor="#E25E21"
+            android:textSize="17sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/collcet_item_describe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/relativeLayout1"
+        android:layout_alignRight="@+id/relativeLayout1"
+        android:layout_marginRight="14dp"
+        android:singleLine="true"
+        android:text="商城自营店"
+        android:textColor="#828582"
+        android:textSize="14sp" />
+
+</RelativeLayout>

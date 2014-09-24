@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">百大易商城</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+      <string name="splash_version_info">百大易商城客户端\n\nVersion 1.0.0</string>
+
+    <!-- 底部的tab -->
+    <string name="tab_home">首页</string>
+    <string name="tab_buyying">生活贴士</string>
+    <string name="tab_shopping">购物车</string>
+    <string name="tab_userCenter">个人中心</string>
+    <!-- fragment_shopping -->
+    <string name="fragment_shopping_empty_text">暂无购物信息</string>
+    <string name="fragment_shopping_collect_text">看收藏</string>
+    <string name="fragment_shopping_goshopping_text">去购物</string>
+    <string name="fragment_shopping_shopping_message_text">购物信息</string>
+    <!-- fragment_dsx -->
+    <string name="fragment_dsx_username_text">sundorid</string>
+    <string name="fragment_dsx_pay_text">待付款</string>
+    <string name="fragment_dsx_pay_num">0</string>
+    <string name="fragment_dsx_collect_text">宝贝收藏</string>
+    <string name="fragment_dsx_balance_text">账户余额</string>
+    <string name="fragment_dsx_order_text">全部订单</string>
+    <string name="fragment_dsx_wait_pay_text">待付款订单</string>
+    <string name="fragment_dsx_order_center_text">订单中心</string>
+    <string name="fragment_dsx_account_center_text">账户中心</string>
+    <string name="fragment_dsx_comment_text">商品评价/晒单</string>
+    <string name="fragment_dsx_info_text">消息中心</string>
+    <string name="fragment_dsx_credits_text">积分兑换</string>
+    <string name="loading">正在加载。。。</string>
+      <string name="msg_load_ing">加载中...</string>
+
+    <!-- 登陆界面 -->
+    <string name="login">登录</string>
+    <string name="loginacount">账号名：</string>
+    <string name="loginpassword">密   码：</string>
+    <string name="inputpassword">请输入密码</string>
+    <string name="inputaccount">请输入账号</string>
+    <string name="register">快速注册</string>
+    <string name="search_info">暂无收索历史</string>
+    <string name="login_btn">登   录</string>
+    <string name="find_password">找回密码</string>
+    <string name="usecooperationaccount">用合作网站帐户登录</string>
+    <string name="registerfree">免费注册</string>
+
+    <!-- 注册 -->
+    <string name="registerinfo">输入手机号后，点击"获取密码"，系统会自动向你的手机发送一条短信</string>
+    <string name="register_tip">【温馨提示】\n 1.使用手机号注册免费 \n 2.此手机号用来登录百大易商城\n 3.你还可以选择其他注册方式</string>
+    <string name="register_normal_tip">【温馨提示】\n 1.请输入有效邮箱进行注册绑定哦！\n 2.下次登录此邮箱用来登录百大易商城\n 3.当然如果觉得麻烦，可以直接跳过，也不影响您购物的哦！注册用户进入购买商品有相应积分，积分课兑换礼品的哦！不过我们的积分只对注册的用户有效呢。</string>
+    <string name="register_in_normal">普通用户注册</string>
+    <string name="register_normal_useraccount">帐户名：</string>
+    <string name="register_normal_useraccount_hint">请输入你的手机号</string>
+    <string name="register_normal_email">邮箱：</string>
+    <string name="register_normal_email_hint">请输入邮箱帐号</string>
+    <string name="register_normal_password">密码：</string>
+    <string name="register_normal_password_hint">请输入密码</string>
+    <string name="register_normal_repassword">确认密码：</string>
+    <string name="register_normal_repassword_hint">请输入确认密码</string>
+    <string name="title_activity_fragment_address">FragmentAddressActivity</string>
+    <string name="title_activity_fragment_collect">FragmentCollectActivity</string>
+    <string name="title_activity_fragment_shopping">FragmentShoppingActivity</string>
+    <string name="title_activity_fragment_see">FragmentSeeActivity</string>
+    <string name="title_activity_add_address">AddAddressActivity</string>
+    <string name="title_activity_add_province">AddProvinceActivity</string>
+
+    <!-- 下拉 -->
+
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="title_activity_address_detail">AddressDetailActivity</string>
+    <string name="title_activity_menu_food">MenuFoodActivity</string>
+
+</resources>

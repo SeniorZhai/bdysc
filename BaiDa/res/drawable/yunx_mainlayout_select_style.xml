@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item
+        android:state_pressed="true"
+        android:drawable="@drawable/yunx_mainlayout_select_down"
+        />
+    <item
+        android:state_pressed="false"
+        android:drawable="@drawable/yunx_mainlayout_select"
+        />
+
+</selector>

@@ -1,0 +1,68 @@
+<!-- 列表展示界面 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/shape_frame_back_normal" >
+
+        <RelativeLayout
+            android:id="@+id/main_listview_relative1"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" >
+
+            <ImageView
+                android:id="@+id/main_listview_image"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="3dp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/main_listview_text_accessory_describe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/main_listview_text_accessory_name"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:maxWidth="300dp"
+            android:singleLine="true"
+            android:text="商城自营店"
+            android:textColor="#828582"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/main_listview_text_accessory_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/main_listview_text_accessory_name"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:maxEms="7"
+            android:singleLine="true"
+            android:text="1290元"
+            android:textColor="#E25E21"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/main_listview_text_accessory_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/main_listview_text_accessory_describe"
+            android:layout_below="@+id/main_listview_relative1"
+            android:maxWidth="200dp"
+            android:text="宣酒"
+            android:textColor="#5C0B07"
+            android:textSize="17sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

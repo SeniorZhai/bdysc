@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/accessory_linear1"
+        android:layout_width="fill_parent"
+        android:layout_height="42sp"
+        android:background="#EA524A"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/news_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="收藏"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <com.baida.widget.FilpperListvew
+        android:id="@+id/clloect_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/accessory_linear1"
+        android:divider="#f0f2f5"
+	    android:background="#ffffff"
+	    android:dividerHeight="8dp"
+        android:cacheColorHint="#00000000" />
+</RelativeLayout>

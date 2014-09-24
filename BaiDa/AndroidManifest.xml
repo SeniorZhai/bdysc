@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.baida.activity"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- mta系统的权限< -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/baida"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity android:name="com.tencent.plus.ImageActivity" />
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="tencent101044453" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.baida.activity.SplashActivity"
+            android:label="@string/app_name"
+           >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+            <activity
+            android:name="com.baida.activity.MainActivity"
+             android:windowSoftInputMode="stateHidden|stateVisible|adjustPan" 
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.baida.activity.ProductDetailsActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.baida.activity.CollectDetailsActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.baida.activity.FragmentHelpActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.baida.activity.ProductListActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.baida.activity.ArticleDetailsActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.baida.activity.LoginActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.renn.rennsdk.oauth.OAuthActivity"
+            android:configChanges="orientation|navigation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.baida.activity.WPAActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.baida.activity.RegisterActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.baida.activity.RegisterNormalActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.baida.activity.FragmentAddressActivity"
+            android:label="@string/title_activity_fragment_address" >
+        </activity>
+        <activity
+            android:name="com.baida.activity.FragmentCollectActivity"
+            android:label="@string/title_activity_fragment_collect" >
+        </activity>
+        <activity
+            android:name="com.baida.activity.FragmentShoppingActivity"
+            android:label="@string/title_activity_fragment_shopping" >
+        </activity>
+        <activity
+            android:name="com.baida.activity.FragmentSeeActivity"
+            android:label="@string/title_activity_fragment_see" >
+        </activity>
+        <activity
+            android:name="com.baida.activity.AddAddressActivity"
+            android:label="@string/title_activity_add_address" >
+        </activity>
+        <activity
+            android:name="com.baida.activity.AddProvinceActivity"
+            android:label="@string/title_activity_add_province" >
+        </activity>
+        <activity
+            android:name="com.baida.activity.AddressDetailActivity"
+            android:label="@string/title_activity_address_detail" >
+        </activity>
+        <activity
+            android:name="com.baida.activity.MenuFoodActivity"
+            android:label="@string/title_activity_menu_food" >
+        </activity>
+         <activity
+            android:name="com.baida.activity.MenuCleanActivity"
+            android:label="@string/title_activity_menu_food" >
+        </activity>
+          <activity
+            android:name="com.baida.activity.MenuDayActivity"
+            android:label="@string/title_activity_menu_food" >
+        </activity>
+         <activity
+            android:name="com.baida.activity.MenuMotherActivity"
+            android:label="@string/title_activity_menu_food" >
+        </activity>
+          <activity
+            android:name="com.baida.activity.MenuBeautyActivity"
+            android:label="@string/title_activity_menu_food" >
+        </activity>
+          <activity
+            android:name="com.baida.activity.MenuLifeActivity"
+            android:label="@string/title_activity_menu_food" >
+        </activity>
+         <activity
+            android:name="com.baida.activity.MenuServiceActivity"
+            android:label="@string/title_activity_menu_food" >
+        </activity>
+    </application>
+
+</manifest>
